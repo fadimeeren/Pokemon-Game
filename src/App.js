@@ -1,14 +1,13 @@
-import './App.css'
-import './Pokecard.css'
+import "./Pokecard.css";
+import Pokegame from "./Pokegame";
 
-import React from 'react'
-
-const App = () => {
+function App() {
   return (
-    <div className='App'>
-      <h1> Pokemon Game</h1>
+    <div className="App">
+      <h1>Pokemon Go Card Game</h1>
+      <Pokegame />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
